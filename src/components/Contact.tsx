@@ -23,22 +23,22 @@ export default function Contact() {
           Escribinos por WhatsApp
         </a>
 
-        <div className="mt-16 grid sm:grid-cols-3 gap-8 text-left">
-          <div className="bg-[#1A1A1A] rounded-xl p-6 border border-[#8B5E3C]/20">
+        <div className="mt-12 sm:mt-16 grid sm:grid-cols-3 gap-4 sm:gap-8 text-left">
+          <div className="bg-[#1A1A1A] rounded-xl p-4 sm:p-6 border border-[#8B5E3C]/20">
             <h3 className="text-[#D4A853] font-semibold mb-2 uppercase tracking-wider text-sm">Horarios</h3>
             <p className="text-[#FDF8F0]/60 text-sm">
               Lun - Vie: 9:00 - 18:00<br />
               Sáb: 10:00 - 14:00
             </p>
           </div>
-          <div className="bg-[#1A1A1A] rounded-xl p-6 border border-[#8B5E3C]/20">
+          <div className="bg-[#1A1A1A] rounded-xl p-4 sm:p-6 border border-[#8B5E3C]/20">
             <h3 className="text-[#D4A853] font-semibold mb-2 uppercase tracking-wider text-sm">Ubicación</h3>
             <p className="text-[#FDF8F0]/60 text-sm">
               Buenos Aires, Argentina<br />
               Envíos a todo el país
             </p>
           </div>
-          <div className="bg-[#1A1A1A] rounded-xl p-6 border border-[#8B5E3C]/20">
+          <div className="bg-[#1A1A1A] rounded-xl p-4 sm:p-6 border border-[#8B5E3C]/20">
             <h3 className="text-[#D4A853] font-semibold mb-2 uppercase tracking-wider text-sm">Personalización</h3>
             <p className="text-[#FDF8F0]/60 text-sm">
               Consultanos por diseños<br />

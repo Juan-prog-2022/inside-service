@@ -56,20 +56,20 @@ export default function Products() {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
           {products.map((product, i) => (
             <div
               key={i}
               className="group bg-[#2C1810] rounded-2xl overflow-hidden border border-[#8B5E3C]/20 hover:border-[#D4A853]/40 transition-all hover:-translate-y-1"
             >
-              <div className="h-56 overflow-hidden">
+              <div className="h-48 sm:h-56 overflow-hidden">
                 <img
                   src={product.image}
                   alt={product.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
-              <div className="p-6">
+              <div className="p-4 sm:p-6">
                 <span className="text-xs uppercase tracking-widest text-[#D4A853] font-semibold">
                   {product.category}
                 </span>

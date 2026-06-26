@@ -19,18 +19,18 @@ export default function About() {
               personalidad. Desde mates personalizados hasta bolsos exclusivos,
               cada detalle cuenta.
             </p>
-            <div className="flex flex-wrap gap-8">
+            <div className="grid grid-cols-3 gap-4 sm:gap-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-[#D4A853]">100%</div>
-                <div className="text-sm text-[#5C3D2E]/60 uppercase tracking-wider">Cuero Artesanal</div>
+                <div className="text-2xl sm:text-3xl font-bold text-[#D4A853]">100%</div>
+                <div className="text-xs sm:text-sm text-[#5C3D2E]/60 uppercase tracking-wider">Cuero Artesanal</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-[#D4A853]">Hecho</div>
-                <div className="text-sm text-[#5C3D2E]/60 uppercase tracking-wider">A Mano</div>
+                <div className="text-2xl sm:text-3xl font-bold text-[#D4A853]">Hecho</div>
+                <div className="text-xs sm:text-sm text-[#5C3D2E]/60 uppercase tracking-wider">A Mano</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-[#D4A853]">Único</div>
-                <div className="text-sm text-[#5C3D2E]/60 uppercase tracking-wider">Para Vos</div>
+                <div className="text-2xl sm:text-3xl font-bold text-[#D4A853]">Único</div>
+                <div className="text-xs sm:text-sm text-[#5C3D2E]/60 uppercase tracking-wider">Para Vos</div>
               </div>
             </div>
           </div>
